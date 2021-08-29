@@ -1,4 +1,4 @@
-## laravel-weight-app について
+# laravel-weight-app について
 
 laravelで作成された、「毎日体重を記録をしよう」というWebアプリです。
 
@@ -40,27 +40,46 @@ laravelで作成された、「毎日体重を記録をしよう」というWeb�
 gitクローンを作成するか、zipを解凍してください。
 
 フォルダーに移動して下記のコマンドを実行してください。
+
 - composer install
+
 - npm install
 
+
 環境に合わせて、sqlで ユーザー名、データーベース名、データーベースへのアクセス権限を作成してください。
+
 - ユーザー名　laravel_weight
+
 - データーベース名 laravel_weight
+
 例えば：mysqlの場合
+
 CREATE USER 'laravel_weight'@'localhost' IDENTIFIED BY '@A3mgbc2y';
+
 GRANT USAGE ON *.* TO 'laravel_weight'@'localhost';
+
 CREATE DATABASE laravel_weight CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
 GRANT ALL PRIVILEGES ON `laravel\_weight`.* TO 'laravel_weight'@'localhost';
 
+
 .envファイルの中の下記を環境に合わせて変更してください。
+
 - DB_CONNECTION=mysql
+
 - DB_HOST=127.0.0.1
+
 - DB_PORT=3306
+
 - DB_DATABASE=laravel_weight
+
 - DB_USERNAME=laravel_weight
+
 - DB_PASSWORD=@A3mgbc2y
 
+
 weight_srcをlaravel環境にコピーするため、下記のコマンドを実行してください。
+
 - php src_copy.php
 
 ※パーミッションの設定によって、コピーがうまくいかない場合は
@@ -68,11 +87,15 @@ weight_srcをlaravel環境にコピーするため、下記のコマンドを実
 　手動でフォルダーの中身をカレントにコピーしてください。
 
 もうすこしで、環境構築は終わりです。下記のコマンドを実行してください。
+
 - npm run dev
+
 - php artisan migrate:fresh
 
 テストデータのシーダーを入れる場合は、下記のコマンドを実行してください。
+
 - php artisan db:seed --class=UsersSeeder
+
 - php artisan db:seed --class=WeightSeeder
 
 簡易サーバーやwebサーバーを立ち上げ、表示確認してください。
