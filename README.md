@@ -83,6 +83,7 @@ weight_srcをlaravel環境にコピーするため、下記のコマンドを実
 
 
 ### ライセンス
+
 tora-japanが作成したソースコードのみMIT
 
 weight_src/public/img/public/img/にある画像は、フリー素材を使っていますが、[イラスト屋](https://www.irasutoya.com/ "イラスト屋")の著作物です。
@@ -111,4 +112,10 @@ weight_src/public/img/public/img/にある画像は、フリー素材を使っ�
 
 [js-cookie](https://github.com/js-cookie/js-cookie "js-cookie")
 
+
+### 連絡先
+
+discordにて連絡をください。
+
+tora#3327
 
