@@ -37,10 +37,18 @@ BMI（Body Mass Index）とは、<br>
 カレンダーの日付を２度タップするとダイアログが開き、日付に対する体重の値を修正できます。</br>
 <img src="img/monthly1.png">
 <hr>
-<b>作者</b><br>
-tora<br>
-git-hub id tora-japan<br>
-source  (git-hubのアドレスを張る場所)<br>
+
+
+
+<table class="table">
+<tr> <td><b>作者</b></td> <td><b>tora</b></td></tr>
+
+<tr> <td>git-hub</td> <td><a href="https://github.com/tora-japan/">tora-japan</a></td> </tr>
+<tr> <td>source</td> <td><a href="https://github.com/tora-japan/laravel-weight-app">laravel-weight-app</a></td></tr>
+<tr> <td>discord</td> <td>tora#3327</td></tr>
+</table>
+
+<br>
 <hr>
 <b>イラスト素材</b><br>
 <a href="https://www.irasutoya.com/">イラスト屋</a><br>
