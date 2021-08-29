@@ -85,8 +85,30 @@ weight_srcをlaravel環境にコピーするため、下記のコマンドを実
 ### ライセンス
 tora-japanが作成したソースコードのみMIT
 
-weight_src/public/img/ public/img/にある画像は、
-フリー素材を使っていますが、[イラスト屋](https://www.irasutoya.com/ "イラスト屋")の著作物です。
+weight_src/public/img/public/img/にある画像は、フリー素材を使っていますが、[イラスト屋](https://www.irasutoya.com/ "イラスト屋")の著作物です。
 
-[イラスト屋のライセンス](https://www.irasutoya.com/p/terms.html "利用規約")に従ってください。
+[イラスト屋のライセンス](https://www.irasutoya.com/p/terms.html "イラスト屋の利用規約")に従ってください。
+
+その他のライセンスは、各フレームワーク、ライブラリー、NPM先のライセンスに従ってください。
+
+使用しているライブラリーやフレームワークなどは次の通りです。
+
+[jquery](https://jquery.com/ "jquery")
+
+[Bootstrap](https://getbootstrap.jp/ "Bootstrap")
+
+[chartjs](https://www.chartjs.org/ "chartjs")
+
+[PHP8](https://www.php.net/ "PHP8")
+
+[Laravel8](http://laravel.jp/ "Laravel8")
+
+[LaravelJetstream](https://jetstream.laravel.com/2.x/introduction.html "LaravelJetstream")
+
+[livewire](https://laravel-livewire.com/ "livewire")
+
+[Carbon](https://carbon.nesbot.com/ "Carbon")
+
+[js-cookie](https://github.com/js-cookie/js-cookie "js-cookie")
+
 
